@@ -8,7 +8,6 @@ terraform {
   }
 }
 
-#dectur.com
 provider "azuread" {
     
 }
