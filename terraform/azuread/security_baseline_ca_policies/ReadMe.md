@@ -1,6 +1,6 @@
 ## Terraform for Azure Active Directory Baseline Condtional Access
 
-This repo is designed to push baseline condtional access policies using infrastructure as code with Terraform. 
+This repo is designed to push baseline condtional access policies using infrastructure as code with Terraform. All condtional access policies will be pushed in a disabled state. It is important you add any exclusions before enabling these policies. If you want to push condtional access in an enabled state, change the state for each policy to `enabled`.
 
 ## Prerequisites
 
